@@ -94,10 +94,11 @@
         gap: 0;
         flex-direction: column;
         background-color: #362029;
-        width: 100%;
+        width: 375px;
         text-align: center;
         transition: 0.3s;
     }
+
 
     .index {
         width: auto;
@@ -111,10 +112,10 @@
         left: 0;
     }
 
-    h1 {
+    .indexbody h1 {
         position: fixed;
         left: -100%;
-
+        opacity: 0;
     }
 
     .theart {
@@ -303,5 +304,215 @@
         height: 5em;
         width: auto;
         background-color: #362029;
+        margin-top: 1em;
+    }
+
+    /*second page */
+    .theupcyclebody {
+        background-image: url(pictures/backgroundsecond.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .theupcycling img {
+        height: 15em;
+    }
+
+    div.scroll-container {
+        background-color: #6C2E4F;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+        position: relative;
+        top: -20px;
+    }
+
+    div.scroll-container img {
+        padding: 10px;
+    }
+
+    .theupcycling h1 {
+        color: #d8aabd;
+        text-shadow:
+            -2px -2px 0 #362029,
+            1px -1px 0 #362029,
+            -1px 1px 0 #362029,
+            1px 1px 0 #362029;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 1.4em;
+        text-align: right;
+        width: 330px;
+        margin-left: 1.5em;
+        margin-top: 1em;
+    }
+
+    .theupcycling p {
+        color: #ebe1d2;
+        font-size: 1em;
+    }
+
+    .theupcycling h2 {
+        color: #FDEDD1;
+        font-family: 'Bitter', serif;
+        margin-top: 2.5em;
+        margin-left: 2em;
+        font-size: 1.5em;
+    }
+
+    .theupcycling p:nth-of-type(1) {
+        font-size: 0.7em;
+        margin-left: 2em;
+        margin-top: 0.5em;
+        font-family: 'Libre Baskerville', serif;
+    }
+
+    .theupcycling p:nth-of-type(2) {
+        font-size: 0.8em;
+        margin-left: 2em;
+        margin-top: 0.5em;
+        font-family: 'Libre Baskerville', serif;
+        width: 300px;
+        text-align: center;
+    }
+
+    img.theupcyclestore {
+        height: 13.5em;
+        margin-top: 2em;
+        margin-left: 2.5em;
+        margin-right: 0.1em;
+
+    }
+
+    .theupcyclestorecontainer {
+        display: inline-block;
+        background-color: #6C2E4F;
+        height: 16em;
+        width: 13em;
+        margin-left: 10.5em;
+    }
+
+    h2.wonderwasteland {
+        margin-top: 0;
+        font-size: 1em;
+        width: 180px;
+        position: relative;
+        top: 110px;
+        right: 30px;
+        text-align: center;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    .containeryellow {
+        margin: 0;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        background-color: #e4ae26;
+        position: relative;
+        top: -10px;
+        right: -150px;
+    }
+
+    .candlescontainer {
+        display: inline-block;
+        background-color: #6C2E4F;
+        height: 14em;
+        width: 13em;
+    }
+
+
+
+    h3.onlinestore {
+        font-size: 1.5em;
+        width: 375px;
+        text-align: center;
+        font-family: 'Oxygen', sans-serif;
+        color: #FDEDD1;
+        margin-top: 0;
+    }
+
+    a.theupcyclenl {
+        color: #FDEDD1;
+        width: 375px;
+        text-align: center;
+        margin-left: 160px;
+        margin-top: 5em;
+    }
+
+    p.onlinestores {
+        font-size: 1em;
+        margin-top: 0.7em;
+        width: 280px;
+        margin-left: 4em;
+    }
+
+    p.onlinestores2 {
+        font-size: 1em;
+        width: 250px;
+        margin-left: 5em;
+    }
+
+    p.onlinestores3 {
+        font-size: 1em;
+        width: 160px;
+        margin-left: 6.5em;
+        text-align: right;
+        margin-bottom: 1em;
+    }
+
+    img.candles {
+        height: 12em;
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+
+    img.wooderboard {
+        margin-top: 1em;
+        height: 11em;
+        margin-left: 1.5em;
+    }
+
+    .boardcontainer {
+        display: inline-block;
+        background-color: #6C2E4F;
+        height: 13em;
+        width: 17em;
+        margin-left: 6.5em;
+    }
+
+    p.workshops {
+        color: #FDEDD1;
+        font-size: 0.8em;
+        width: 270px;
+        margin-left: 4em;
+        text-align: right;
+        margin-top: 1em;
+        font-family: 'Libre Baskerville', serif;
+        position: relative;
+        top: 15px;
+    }
+
+    .theupcycling a:nth-of-type(2) {
+        color: #FDEDD1;
+        width: 375px;
+        text-align: center;
+        margin-left: 8em;
+        font-size: 1.5em;
+        margin-top: 0.5em;
+        margin-bottom: 2em;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    .containeryelloww {
+        margin: 0;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        background-color: #e4ae26;
+        position: relative;
+        top: -360px;
+        right: 100px;
+
     }
 }
