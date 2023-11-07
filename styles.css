@@ -35,7 +35,8 @@
     background-color: #362029;
 }
 
-@media only screen and (max-width: 380px) {
+
+@media only screen and (max-width: 376px) {
     * {
         padding: 0;
         margin: 0;
@@ -44,7 +45,7 @@
 
     header {
         background-color: #ebe1d2;
-        width: 380px;
+        width: 100%;
     }
 
     .indexbody {
@@ -54,6 +55,7 @@
         background-size: cover;
         margin: 0;
         padding: 0;
+        width: 100vw;
     }
 
     li {
@@ -100,6 +102,7 @@
     }
 
 
+
     .index {
         width: auto;
     }
@@ -128,7 +131,7 @@
             1px 1px 0 white;
         font-family: 'Libre Baskerville', serif;
         font-size: 1.4em;
-        width: 375px;
+        width: 320px;
     }
 
     .upcycli {
@@ -161,6 +164,7 @@
         top: -250px;
         right: -135px;
         height: 250px;
+
     }
 
     .kunstendecor {
@@ -186,8 +190,8 @@
     .index p:nth-of-type(2) {
         font-family: 'Libre Baskerville', serif;
         font-size: 0.9em;
-        margin-left: 7em;
-        margin-right: 2em;
+        margin-left: 6em;
+        margin-right: 0;
         padding-right: 1em;
         width: 270px;
     }
@@ -200,6 +204,8 @@
         padding-right: 2em;
         width: 100px;
         display: inline-block;
+        position: relative;
+        top: -17px;
     }
 
     .index p:nth-of-type(4) {
@@ -222,12 +228,13 @@
         top: -60px;
         right: -20px;
         height: 320px;
+        width: 360px;
 
     }
 
     .watis {
         display: block;
-        width: 350px;
+        width: 300px;
         text-align: right;
         padding: 0;
         margin: 0;
@@ -243,13 +250,12 @@
         font-family: 'Acme', sans-serif;
         font-size: 1.7em;
         margin-left: 4em;
-        padding-right: 4em;
         display: inline-block;
         position: relative;
         top: 150px;
         text-align: center;
         font-weight: 800;
-        width: 350px;
+        width: 250px;
 
     }
 
@@ -259,6 +265,7 @@
         top: 170px;
         right: -15px;
     }
+
 
     .index p:nth-of-type(6) {
         font-family: 'Libre Baskerville', serif;
@@ -302,7 +309,7 @@
     footer {
         display: block;
         height: 5em;
-        width: auto;
+        width: 100%;
         background-color: #362029;
         margin-top: 1em;
     }
@@ -388,7 +395,7 @@
         display: inline-block;
         background-color: #6C2E4F;
         height: 16em;
-        width: 13em;
+        width: 12.7em;
         margin-left: 10.5em;
     }
 
@@ -515,4 +522,120 @@
         right: 100px;
 
     }
+
+    /* Third page */
+    .workshops {
+        background-image: url(pictures/backgroundthird.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .workshopmain img {
+        width: 49.4%;
+        margin-top: 1em;
+    }
+
+    .workshopmain h1 {
+        margin: 1em 10px 0 0;
+        color: #E1A919;
+        font-size: 1.8em;
+        text-shadow:
+            -1px -1px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black;
+        font-family: 'Oxygen', sans-serif;
+        width: 100%;
+        padding-left: 3em;
+    }
+
+    .workshopmain h2:nth-of-type(1) {
+        font-size: 1.5em;
+        font-family: 'Oxygen', sans-serif;
+        width: 210px;
+        color: #ebe1d2;
+        margin: 1em 0 0 6em;
+    }
+
+    .workshopmain p:nth-of-type(1) {
+        font-size: 1em;
+        margin-left: 4.3em;
+        margin-top: 8em;
+        font-family: 'Poppins', sans-serif;
+        width: 300px;
+        text-align: center;
+        color: #FDEDD1;
+    }
+
+    .workshopmain h3 {
+        font-family: 'Oxygen', sans-serif;
+        color: #E1A919;
+        font-size: 1.3em;
+        width: 100%;
+        text-align: center;
+        font-weight: 800;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    .containerearings {
+        width: 100%;
+        height: 250px;
+        background-color: #E1A919;
+    }
+
+    .workshopmain p:nth-of-type(2) {
+        font-size: 0.8em;
+        padding: 0 4em 0 4em;
+        margin-top: 2em;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        text-align: center;
+        color: #FDEDD1;
+    }
+
+    img.beltstire {
+        width: 100%;
+        margin-top: 1.5em;
+    }
+
+    .containerearings1 {
+        width: 100%;
+        height: 270px;
+        background-color: #E1A919;
+    }
+
+    .workshopmain p:nth-of-type(3) {
+        font-size: 0.8em;
+        padding: 0 4em 0 4em;
+        margin-top: 2em;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        text-align: center;
+        color: #FDEDD1;
+    }
+
+    .workshopmain p:nth-of-type(4) {
+        font-size: 0.8em;
+        padding: 0 4em 0 4em;
+        margin-top: 1em;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        text-align: center;
+        color: #FDEDD1;
+    }
+
+    .workshopmain p:nth-of-type(5) {
+        font-size: 1em;
+        padding: 0 3em 0 3em;
+        margin-top: 5em;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        text-align: center;
+        color: #FDEDD1;
+    }
+
+footer a{
+    color: white;
+}
 }
